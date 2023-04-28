@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="fa-IR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/mdb.dark.rtl.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/btn.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>calculator</title>
+</head>
+
+<body>
+    <div class="calccontainer" id="interesting">
+        <div class="row">
+            <div class="container" id="upper">
+                <div class="row">
+                    <div class="col-12 px-0 px-md-2 p-0 pb-1">
+                        <div class="bg-white rounded up-white">
+                            <form action="#" method="post" id="form">
+                                <input type="text" name="calculate" id="calculate" class="calculate-input"
+                                    disabled>
+                            </form>
+                        </div>
+                        <div class="myhide justify-content-between px-3 d-none d-lg-flex">
+                            <p class="p-0 m-0">LARGE DISPLAY</p>
+                            <p class="p-0 m-0">3 years battri life</p>
+                        </div>
+                        <hr class="p-0 m-0">
+                    </div>
+                    <div class="col-12">
+                        <div class="myhide justify-content-between pb-0 p-3 pt-1">
+                            <div class="myhide py-3 col-10">
+                                <button class="btn btn-primary me-3 check remLastChar" id="check">check <br></button>
+                                <!-- <button class="btn btn-primary me-3 check" disabled>check <br> <i
+                                        class="fas fa-clock"></i></button>
+                                <button class="btn btn-primary me-3 check" disabled>check <br> <i
+                                        class="fas fa-clock"></i></button>
+                                <button class="btn btn-primary me-3 check" disabled>check <br> <i
+                                        class="fas fa-clock"></i></button> -->
+                                <button class="btn btn-primary me-3 check" id="fullsize">fullsize <br> <i
+                                        class="fas fa-clock"></i></button>
+                            </div>
+                            <div class="solar d-none d-lg-flex py-3 col-2">
+                                <img src="assets/images/cells.jpg" alt="cell" class="cells">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="num-container m-auto px-3" id="slicer">
+                <div class="row">
+                    <div class="col-12 col-lg-6 " id="numpad">
+                        <div class="row">
+                            <div class="col-3 col-lg-3 white-btn-up-mobile">
+                                <button class="mt-3 btn btn-light clear" id="c">c</button>
+                            </div>
+                            <div class="col-3 col-lg-3 white-btn-up-mobile">
+                                <button class="mt-3 btn btn-light " id="prantesis">( )</button>
+                            </div>
+                            <div class="col-3 col-lg-3 white-btn-up-mobile">
+                                <button class="mt-3 btn btn-light  id-divide baseMath">/</button>
+                            </div>
+                            <div class="col-3 col-lg-3 white-btn-up-mobile">
+                                <button class="mt-3 btn btn-light baseMath" id="percentage">
+                                    %</button>
+                            </div>
+                            <div class="d-none d-lg-block col-3 col-lg-3">
+                                <button class="mt-3 btn btn-light whiteArrow remLastChar" id="whiteArrow"><i
+                                        class="fas fa-angle-right"></i></button>
+                            </div>
+                            <div class="col-3 col-lg-3">
+                                <button class="mt-3 btn btn-dark seven number" id="7">7</button>
+                            </div>
+                            <div class="col-3 col-lg-3">
+                                <button class="mt-3 btn btn-dark eight number" id="8">8</button>
+                            </div>
+                            <div class="col-3 col-lg-3">
+                                <button class="mt-3 btn btn-dark nine number" id="9">9</button>
+                            </div>
+                            <div class="col-3 col-lg-3 white-btn-up-mobile id-times">
+                                <button class="mt-3 btn btn-light baseMath">*</button>
+                            </div>
+                            <div class="col-3 col-lg-3 d-none d-lg-block">
+                                <button class="mt-3 btn btn-light gt" id="gt">GT</button>
+                            </div>
+                            <div class="col-3 col-lg-3">
+                                <button class="mt-3 btn btn-dark four number" id="4">4</button>
+                            </div>
+                            <div class="col-3 col-lg-3">
+                                <button class="mt-3 btn btn-dark five number" id="5">5</button>
+                            </div>
+                            <div class="col-3 col-lg-3">
+                                <button class="mt-3 btn btn-dark six number" id="6">6</button>
+                            </div>
+                            <div class="col-3 col-lg-3 white-btn-up-mobile ">
+                                <button class="mt-3 btn btn-light id-minus baseMath">-</button>
+                            </div>
+                            <div class="col-3 col-lg-3 d-none d-lg-block">
+                                <button class="mt-3 btn btn-light onwhite clear" id="onwhite">ON</button>
+                            </div>
+                            <div class="col-3 col-lg-3">
+                                <button class="mt-3 btn btn-dark one number" id="1">1</button>
+                            </div>
+                            <div class="col-3 col-lg-3">
+                                <button class="mt-3 btn btn-dark two number" id="2">2</button>
+                            </div>
+                            <div class="col-3 col-lg-3">
+                                <button class="mt-3 btn btn-dark three number" id="3">3</button>
+                            </div>
+                            <div class="col-3 col-lg-3 white-btn-up-mobile">
+                                <button class="mt-3 btn btn-light id-plus baseMath">+</button>
+                            </div>
+                            <div class="col-3 col-lg-3 d-none d-lg-block ">
+                                <button class="mt-3 btn btn-light id-negPos negPos">-/+</button>
+                            </div>
+                            <div class="col-3 col-lg-3">
+                                <button class="mt-3 btn btn-dark just-mobile negPos" id="negPos">-/+</button>
+                                <button class="mt-3 btn btn-dark  hideen-in-mobile ziro ziroes" id="0">0</button>
+                            </div>
+                            <div class="col-3 col-lg-3">
+                                <button class="mt-3 btn btn-dark just-mobile id-0 ziro ziroes">0</button>
+                                <button class="mt-3 btn btn-dark hideen-in-mobile dziro ziroes" id="00">00</button>
+                            </div>
+                            <div class="col-3 col-lg-3">
+                                <button class="mt-3 btn btn-dark dot" id="dot">.</button>
+                            </div>
+                            <div class="col-3 col-lg-3 white-btn-up-mobile">
+                                <button class="mt-3 btn btn-light id-equal">
+                                    =
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-none d-lg-block col-lg-6" id="mathnum">
+                        <div class="row">
+                            <div class="col-3 col-lg-4 text-start">
+                                <button class="mt-3 btn btn-dark divide baseMath" id="divide">/</button>
+                            </div>
+                            <div class="col-3 col-lg-4 text-start">
+                                <button class="mt-3 btn btn-dark square" id="square"><i
+                                        class="fas fa-square-root-alt"></i></button>
+                            </div>
+                            <div class="col-3 col-lg-4 text-start">
+                                <button class="mt-3 btn btn-success on clear" id="on">ON</button>
+                            </div>
+                            <div class="col-3 col-lg-4 text-start">
+                                <button class="mt-3 btn btn-dark times baseMath" id="times">*</button>
+                            </div>
+                            <div class="col-3 col-lg-4 text-start">
+                                <button class="mt-3 btn btn-dark percentage baseMath" id="percentage">%</button>
+                            </div>
+                            <div class="col-3 col-lg-4 text-start">
+                                <button class="mt-3 btn btn-dark prantesis">( )</button>
+                            </div>
+                            <div class="col-12">
+                                <div class="row">
+                                    <div class="col-3 col-lg-4 pe-0 over-flow-hidden text-start">
+                                        <button class="mt-3 btn btn-dark plus-btn h-100 plus baseMath" id="plus">+</button>
+                                    </div>
+                                    <div class="col-3 col-lg-4">
+                                        <div class="d-flex flex-column align-items-end p-0 text-start">
+                                            <button class="mt-3 btn btn-dark minus baseMath" id="minus">-</button>
+                                            <button class="mt-3 btn btn-dark equal" id="equal">=</button>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-3 col-lg-4 ps-0 ">
+                                        <div class="d-flex flex-column text-start">
+                                            <button class="mt-3 btn btn-dark memories" id="memminus">M
+                                                -</button>
+                                            <button class="mt-3 btn btn-dark memories" id="memplus">M
+                                                +</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-6 d-none" id="eorc">
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-12">
+                                    <button class="mt-3 btn btn-dark w-100 custom" id="oddtill">سری
+                                        اعداد فرد تا</button>
+                                </div>
+                                <div class="col-12">
+                                    <button class="mt-3 btn btn-dark w-100 custom" id="eventill">سری
+                                        اعداد زوج تا</button>
+                                </div>
+                                <div class="col-12">
+                                    <button class="mt-3 btn btn-dark w-100 custom" id="fib">فیبو.ناچی
+                                        تا </button>
+                                </div>
+                                <div class="col-12">
+                                    <button class="mt-3 btn btn-dark w-100 custom" id="execute">اجرا
+                                    </button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/mdb.min.js"></script>
+    <script src="assets/js/all.min.js"></script>
+    <!-- <script src="assets/js/script.js"></script>
+    <script src="assets/js/equal.js"></script> -->
+    <script src="assets/js/buttom.js"></script>
+    <script src="assets/js/calc.js"></script>
+</body>
+
+</html>

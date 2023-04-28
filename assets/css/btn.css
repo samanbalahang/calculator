@@ -1,0 +1,245 @@
+button{
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-image: url("../images/blanck.jpg");
+    color:transparent !important;
+}
+button:active{
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-image: url("../images/blanck-2.jpg");
+}
+/* button.btn-light{
+    background-image: url("../images/white-large.jpg");
+}
+button.btn-light:active{
+    background-image: url("../images/white-large-2.jpg");
+} */
+button.on {
+    background-image: url("../images/green.jpg");
+    color: transparent !important;
+}
+button.on:active {
+    background-image: url("../images/green-2.jpg");
+}
+.custom{
+    background-image: url("../images/large.jpg")
+}
+.custom:active{
+    background-image: url("../images/large-2.jpg")
+}
+.check{
+    background-image: url("../images/check.jpg")
+}
+.check:active{
+    background-image: url("../images/check-2.jpg")
+}
+.check[disabled]{
+    background-image: none;
+}
+.ziro{
+    background-image: url("../images/0-btn.jpg")
+}
+.ziro:active{
+    background-image: url("../images/0-btn-2.jpg")
+}
+.dziro{
+    background-image: url("../images/00-btn.jpg")
+}
+.dziro:active{
+    background-image: url("../images/00-btn-2.jpg")
+}
+.dot{
+    background-image: url("../images/dot-btn.jpg")
+}
+.dot:active{
+    background-image: url("../images/dot-btn-2.jpg")
+}
+.one{
+    background-image: url("../images/1-btn.jpg")
+}
+.one:active{
+    background-image: url("../images/1-btn-2.jpg")
+}
+.two{
+    background-image: url("../images/2-btn.jpg")
+}
+.two:active{
+    background-image: url("../images/2-btn-2.jpg")
+}
+.three{
+    background-image: url("../images/3-btn.jpg")
+}
+.three:active{
+    background-image: url("../images/3-btn-2.jpg")
+}
+.four{
+    background-image: url("../images/4-btn.jpg")
+}
+.four:active{
+    background-image: url("../images/4-btn-2.jpg")
+}
+.five{
+    background-image: url("../images/5-btn.jpg")
+}
+.five:active{
+    background-image: url("../images/5-btn-2.jpg")
+}
+.six{
+    background-image: url("../images/6-btn.jpg")
+}
+.six:active{
+    background-image: url("../images/6-btn-2.jpg")
+}
+.seven{
+    background-image: url("../images/7-btn.jpg")
+}
+.seven:active{
+    background-image: url("../images/7-btn-2.jpg")
+}
+.eight{
+    background-image: url("../images/8-btn.jpg")
+}
+.eight:active{
+    background-image: url("../images/8-btn-2.jpg")
+}
+.nine{
+    background-image: url("../images/9-btn.jpg")
+}
+.nine:active{
+    background-image: url("../images/9-btn-2.jpg")
+}
+.divide{
+    background-image: url("../images/devision.jpg")
+}
+.divide:active{
+    background-image: url("../images/devision-2.jpg")
+}
+.times{
+    background-image: url("../images/multyply.jpg")
+}
+.times:active{
+    background-image: url("../images/multyply-2.jpg")
+}
+.plus{
+    background-image: url("../images/plus.jpg")
+}
+.plus:active{
+    background-image: url("../images/plus-2.jpg")
+}
+.equal{
+    background-image: url("../images/equal.jpg")
+}
+.equal:active{
+    background-image: url("../images/equal-2.jpg")
+}
+.minus{
+    background-image: url("../images/minus.jpg")
+}
+.minus:active{
+    background-image: url("../images/minus-2.jpg")
+}
+.percentage{
+    background-image: url("../images/percentage.jpg")
+}
+.percentage:active{
+    background-image: url("../images/percentage-2.jpg")
+}
+.square{
+    background-image: url("../images/root.jpg")
+}
+.square:active{
+    background-image: url("../images/root-2.jpg")
+}
+#memplus{
+    background-image: url("../images/m-plus.jpg")
+}
+#memplus:active{
+    background-image: url("../images/m-plus-2.jpg")
+}
+#memminus{
+    background-image: url("../images/m-mimus.jpg")
+}
+#memminus:active{
+    background-image: url("../images/m-mimus-2.jpg")
+}
+.prantesis{
+    background-image: url("../images/prantesis-btn.jpg")
+}
+.prantesis:active{
+    background-image: url("../images/prantesis-btn-2.jpg")
+}
+.whiteArrow{
+    background-image: url("../images/arrow.jpg")
+}
+.whiteArrow:active{
+    background-image: url("../images/arrow-2.jpg")
+}
+.gt{
+    background-image: url("../images/GT.jpg")
+}
+.gt:active{
+    background-image: url("../images/GT-2.jpg")
+}
+.negPos{
+    background-image: url("../images/negPos.jpg")
+}
+.negPos:active{
+    background-image: url("../images/negPos-2.jpg")
+}
+.onwhite{
+    background-image: url("../images/ce.jpg")
+}
+.onwhite:active{
+    background-image: url("../images/ce-2.jpg")
+}
+.check{
+    background-image: url("../images/check-b.jpg");
+    background-size: cover;
+}
+.check:active{
+    background-image: url("../images/check-b-2.jpg");
+    background-size: cover;
+}
+#fullsize{
+    background-image: url("../images/Autoreplay.jpg");
+    background-size: cover;
+}
+#fullsize:active{
+    background-image: url("../images/autoreplay-2.jpg");
+    background-size: cover;
+}
+#oddtill{
+    background-image: url("../images/odd-num.jpg");
+    background-size: cover;
+}
+#oddtill:active{
+    background-image: url("../images/odd-num-2.jpg");
+    background-size: cover;
+}
+#eventill{
+    background-image: url("../images/even-num.jpg");
+    background-size: cover;
+}
+#eventill:active{
+    background-image: url("../images/even-num-2.jpg");
+    background-size: cover;
+}
+#fib{
+    background-image: url("../images/fibo-num.jpg");
+    background-size: cover;
+}
+#fib:active{
+    background-image: url("../images/fibo-num-2.jpg");
+    background-size: cover;
+}
+#execute{
+    background-image: url("../images/ejra.jpg");
+    background-size: cover;
+}
+#execute:active{
+    background-image: url("../images/ejra-2.jpg");
+    background-size: cover;
+}

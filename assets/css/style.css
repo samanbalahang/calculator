@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+}
+
+.rtl {
+    direction: rtl !important;
+}
+
+.ltr {
+    direction: ltr !important;
+}
+
+body {
+    height: 100vh;
+    font-size: 0.8rem;
+    /* overflow: hidden; */
+}
+
+.calccontainer {
+    width: 100%;
+}
+
+.up-white {
+    padding: 3px;
+    border-radius: 0;
+}
+
+#upper {
+    height: 20%;
+}
+
+#slicer {
+    height: 80%;
+    width: 100%;
+    padding: 0;
+}
+
+#slicer div {
+    /* padding: 0; */
+    margin: 0;
+}
+
+.calculate-input {
+    background: lightgreen;
+    width: 100%;
+    padding: 1rem;
+    /* font-size: 1.8rem; */
+}
+
+.num-container #whitenum button {
+    /* font-size: 1.5rem; */
+    padding: 1rem 1rem;
+}
+.myhide {
+    display: none;
+}
+
+.memories {
+    display: none;
+}
+
+#numpad {
+    padding: 0;
+}
+button[disabled] {
+    display: none;
+}
+
+.white-btn-up-mobile,
+.just-mobile {
+    display: block;
+}
+
+.hideen-in-mobile {
+    display: none;
+}
+
+.over-flow-hidden {
+    overflow: hidden;
+}
+
+button:not(.custom) {
+    width: 4rem !important;
+    height: 4rem !important;
+}
+
+button.check {
+    width: auto !important;
+    height: 4rem !important;
+}
+
+button.plus-btn {
+    height: 100% !important;
+}
+
+.cells {
+    height: 2rem;
+    max-width: 100%;
+}
+
+@media(min-width:1024px) {
+    body {
+        font-size: 1rem;
+    }
+
+    .memories {
+        display: block;
+        margin-left: auto;
+    }
+    button[disabled] {
+        display: block;
+    }
+
+    .calculate-input {
+        padding: 2rem;
+        font-size: 1.8rem;
+        /* font-size: 1.8rem; */
+    }
+
+    .up-white {
+        padding: 2% 2rem;
+    }
+
+    .white-btn-up-mobile,
+    .just-mobile {
+        display: none;
+    }
+
+    .hideen-in-mobile {
+        display: block;
+    }
+
+    .calccontainer {
+        width: 62%;
+        margin: auto;
+        box-shadow: 16px 11px 20px black;
+        border-radius: 10px;
+        border: 6px solid white;
+        padding-bottom: 1rem;
+    }
+
+}
+
+@media(min-width:1440px) {
+    .calccontainer {
+        width: 40%;
+        margin: auto;
+        box-shadow: 16px 11px 20px black;
+        border-radius: 10px;
+        border: 6px solid white;
+        padding-bottom: 1rem;
+    }
+}
+
+@media (min-height:620px) {
+    .myhide {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
