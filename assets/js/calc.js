@@ -190,6 +190,7 @@ $(function () {
         $("#calculate").val(output);
     }
     function eventillnum(calculate) {
+        var output = "";
         lastindex = eval(calculate);
         lastindex = parseInt(lastindex);
         for (i = 0; lastindex >= i; i = i + 2) {
