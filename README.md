@@ -1,7 +1,7 @@
 # calculator
 
 # دموی آنلاین
-<a href="https://samanbalahang/github.io/calculator/index.html">دموی آنلاین</a>
+<a href="https://samanbalahang.github.io/calculator/index.html">دموی آنلاین</a>
 <p>
 یک ماشین حساب با کمک بوت استرپ و جیکوئری 
 </p>
